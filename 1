@@ -1,0 +1,17 @@
+one = input("1: ")
+two = input("2: ")
+
+print(one, two)
+
+if one == two:
+    print("не подходит")
+elif one == "париж" and two == "берлин":
+    print('не подходит')
+elif one == "берлин" and two == "париж":
+    print('не подходит')
+elif one == "париж" or one == "берлин":
+    print("подходит")
+elif two == "париж" or two == "берлин":
+    print("подходит")
+else:
+    print('не подходит')
